@@ -2,34 +2,48 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #2280E0;
-  color: #333;
+  background-color: #f9f9f9;
+  color: #222;
 }
 
 /* Header */
 header {
-  background-color: #2280E0; /* Blue */
+  background-color: #003366; /* Club Blue */
   color: white;
   padding: 15px 20px;
   text-align: center;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 60px;
+  margin-right: 15px;
+}
 header h1 {
   margin: 0;
+  font-size: 1.8em;
+}
+nav {
+  margin-top: 10px;
 }
 nav a {
-  color: white;
+  color: #FFD700; /* Club Yellow */
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
 nav a:hover {
+  color: white;
   text-decoration: underline;
 }
 
 /* Hero Section */
 .hero {
-  background: url('https://via.placeholder.com/1200x400?text=Gympie+United') center/cover no-repeat;
-  color: white;
+  background: url('https://via.placeholder.com/1200x400/003366/ffffff?text=Gympie+United+FC') center/cover no-repeat;
+  color: #FFD700;
   text-align: center;
   padding: 100px 20px;
 }
@@ -39,6 +53,7 @@ nav a:hover {
 }
 .hero p {
   font-size: 1.2em;
+  color: white;
 }
 
 /* Main Content */
@@ -56,7 +71,7 @@ main section {
 
 /* Footer */
 footer {
-  background-color: #1b5e20;
+  background-color: #003366;
   color: white;
   text-align: center;
   padding: 10px;
